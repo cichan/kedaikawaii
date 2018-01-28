@@ -12,8 +12,8 @@
 @import url('overwrite.css');
 @import url('animate.css');
 
-/* ===================================
-1. General
+/*
+General
 ==================================== */
 
 body {
@@ -40,8 +40,8 @@ h1,h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
-/* ===================================
-2. layout
+/*
+Layout
 ==================================== */
 
 .container {
@@ -75,8 +75,8 @@ h1,h2, h3, h4, h5, h6 {
 }
 @media only screen and (max-width:640px){.row-rw {width: 90%; margin: 0 20px;}}
 
-/* ===================================
-3. Responsive media
+/*
+Responsive media
 ==================================== */
 
 .video-container,.map-container,.embed-container 		{ position:relative; margin:0 0 15px 0;	padding-bottom:51%; padding-top:30px; height:0; overflow:hidden; border:none; }
@@ -99,8 +99,9 @@ img.img-polaroid {
 .img-box {
 	max-width:100%;
 }
-/* ===================================
-4. Header
+
+/* 
+Header
 ==================================== */
 
 /* --- header -- */
@@ -308,8 +309,8 @@ ul.nav li.dropdown a {
 	display:none;
 }
 
-/* ===================================
-5. Section: Featured
+/*
+Section: Featured
 ==================================== */
 
 #featured{
@@ -320,8 +321,8 @@ ul.nav li.dropdown a {
 	padding:0;
 }
 
-/* ===================================
-6. Sliders
+/*
+Sliders
 ==================================== */
 /* --- flexslider --- */
 
@@ -340,8 +341,8 @@ ul.nav li.dropdown a {
 
 
 
-/* ===================================
-7. Section: call action
+/*
+Section: call action
 ==================================== */
 section.callaction {
 	background:#ebe9e9;
@@ -350,8 +351,8 @@ section.callaction {
 
 
 
-/* ===================================
-8. Section: Content
+/*
+Section: Content
 ==================================== */
 img {
     vertical-align: middle;
@@ -384,6 +385,7 @@ img {
 
 @media only screen and (max-width:640px){#content {background-size: 0px;}}
 @media only screen and (max-width:640px){.copyright .credits{text-align: center;font-size: 12px;}}
+
 /* --- Call to action --- */
 
 .cta-text {
@@ -423,8 +425,8 @@ img {
 }
 
 
-/* ===================================
-9. Section: Bottom
+/*
+Section: Bottom
 ==================================== */
 
 #bottom {
@@ -461,8 +463,8 @@ img {
 }
 
 
-/* ===================================
-10. Inner - Section: page headline
+/*
+Inner - Section: page headline
 ==================================== */
 
 #inner-headline{
@@ -506,8 +508,8 @@ ul.breadcrumb li a:hover {
 	text-decoration:none;
 }
 
-/* ============================
-11. Forms
+/*
+Forms
 ============================= */
 
 /* --- contact form  ---- */
@@ -617,9 +619,8 @@ form#commentform textarea {
 }
 
 
-
-/* ===============================
-12. Portfolio
+/*
+Portfolio
 ================================ */
 
 .work-nav #filters {
@@ -761,8 +762,8 @@ ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio
 	margin-bottom:20px;
 }
 
-/* ===============================
-13. Elements
+/*
+Elements
 ================================ */
 
 /* --- blockquote --- */
@@ -1099,8 +1100,8 @@ border: 1px solid #e6e6e6;
 }
 
 
-/* ===============================
-14. Blog & article
+/*
+Article
 ================================ */
 
 article{
@@ -1325,8 +1326,8 @@ ul.meta-post li a{
 }
 
 
-/* ===============================
-15. Aside, sidebar
+/*
+Aside, sidebar
 ================================ */
 
 aside{
@@ -1550,8 +1551,8 @@ ul.time-post li.time{
 	margin-bottom:20px;
 }
 
-/* ===============================
-16. Footer
+/*
+Footer
 ================================ */
 
 footer{
@@ -1616,7 +1617,7 @@ ul.social-network li {
 }
 @media only screen and (max-width:640px){#sub-footer ul.social-network{font-size: 12px;}}
 
-/* ===============================
+/*
  Live preview purpose
 ================================ */
 /* --- buttons --- */
@@ -1657,8 +1658,8 @@ section.demogrid .col-lg-12.nest {
 }
 
 
-/* ===============================
-17. Divider, Line & Misc
+/*
+Divider, Line & Misc
 ================================ */
 
 .solidline {
@@ -1711,10 +1712,8 @@ a.scrollup i:hover {
 }
 
 
-
-
-/* =============================
-18. Position & alignment
+/*
+Position & alignment
 ============================= */
 
 .absolute{
@@ -1778,8 +1777,8 @@ article img.pull-right, article .align-right{
 	margin:5px 0 15px 15px;
 }
 
-/* =============================
-20. Spacer, margin
+/*
+Spacer, margin
 ============================= */
 
 .clear-marginbot{
@@ -1820,8 +1819,8 @@ article img.pull-right, article .align-right{
 }
 
 
-/* =============================
-21. Media queries 
+/*
+Media queries 
 ============================= */
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1864,7 +1863,7 @@ article img.pull-right, article .align-right{
     padding-right: 0;
     padding-left: 0;
     }
-    
+
   	#chibi{
   		width: 10%;
     }
