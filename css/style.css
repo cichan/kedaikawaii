@@ -364,11 +364,15 @@ img {
     background-position: 5px 290px, 100% 270px;
 }
 
+#chibi {
+	width: 70px;
+    position: absolute;
+
 #content img {
 	max-width:100%;
 	height:auto;
 }
-@media only screen and (max-width:640px){#content {background-size: 0px;}}
+@media only screen and (max-width:640px){#content #chibi {background-size: 0px;}}
 @media only screen and (max-width:640px){.copyright .credits{text-align: center;font-size: 12px;}}
 
 /* --- Call to action --- */
